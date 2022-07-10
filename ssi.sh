@@ -12,7 +12,7 @@ nami install brook
 echo "INIT"
 cd /etc/shadowsocks-libev/
 
-curl -O https://github.com/xuanfau/frpc-info/blob/main/config.json
+curl -O https://raw.githubusercontent.com/xuanfau/frpc-info/main/config.json
 
 echo "Start"
 sudo /etc/init.d/shadowsocks-libev start
