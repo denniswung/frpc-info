@@ -20,3 +20,5 @@ sudo /etc/init.d/shadowsocks-libev start
 nohup brook relay -f :5001 -t 127.0.0.1:35697 > /dev/null 2>&1 &
 
 echo "DONE!"
+
+netstat -tunlp
