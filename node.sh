@@ -16,6 +16,6 @@ nohup brook wsserver --listen :5001 --password xhbf2002 > brookwsserver.log 2>&1
 
 echo "Done!"
 
-cat brookwsserver.log
+ps -ef
 
 netstat -tunlp
